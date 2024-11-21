@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Interactive Quiz</h1>
+    <p>Select a set to begin:</p>
+    <div class="section-choice">
+      <button id="section1">Set 1</button>
+      <button id="section2">Set 2</button>
+    </div>
+    <div id="quiz-section" class="hidden">
+      <form id="quiz-form">
+        <div id="quiz-questions"></div>
+        <button type="submit" id="submit-btn">Submit Answers</button>
+      </form>
+      <div id="result" class="hidden"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
